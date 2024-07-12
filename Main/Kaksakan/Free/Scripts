@@ -1,0 +1,213 @@
+if game.PlaceId == 3956818381 then
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Kak.Hub Ninja Legends Script", "DarkTheme")
+
+local Tab = Window:NewTab("AutoFarm")
+local Section = Tab:NewSection("AutoFarm")
+
+Section:NewButton("Auto Ninjitsu", "Click for unlimited Ninjitsu", function()
+
+    game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Executed Unlimited Ninjitsu";
+        Text  = "Kaksakan_Roblox";
+        Icon  = "rbxthumb://type=Asset&id=17730178070&w=150&h=150"})
+    Duration = 10;
+
+    for i = 1, 10000000 do
+        local args = {
+            [1] = "swingKatana"
+        }
+    
+        game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(unpack(args))
+        wait() -- Opsiyonel olarak işlem arasında bir süre bekleyebilirsiniz, isteğe bağlı
+    end
+end)
+
+Section:NewButton("Auto Farm Hoops", "ButtonInfo", function()
+    while true do
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(325.30835, 218.066589, -95.011528, -4.26769257e-05, -0.906304121, 0.422626197, -1, 4.2617321e-05, -9.46223736e-06, -9.46223736e-06, -0.422626197, -0.906304121)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(81.7271423, 4680.55225, 11.8231936, 0.211323619, -0.365947723, 0.906324744, -0.866030097, -0.499992013, 4.60147858e-05, 0.453138202, -0.784914255, -0.422581911)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14.0961304, 50158.1367, -42.8878059, -1.54972076e-06, 0.422563195, -0.906333447, -1, -1.54972076e-06, 9.83476639e-07, -9.83476639e-07, 0.906333447, 0.422563195)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(134.895706, 275.877899, 334.667023, -8.22544098e-06, -0.642762423, 0.766065776, -1.00000012, 7.9870224e-06, -3.75509262e-06, -3.75509262e-06, -0.766065776, -0.642762542)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(45.1864967, 8289.31738, -32.5351486, 4.76837158e-05, 0.996190667, -0.0872024298, -1, 4.76837158e-05, -2.08243728e-06, 2.08243728e-06, 0.0872024298, 0.996190608)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(95.291832, 14831.0459, 54.7701225, -0.492406368, 0.586809278, -0.642799258, -0.766036391, -0.642797232, 2.74181366e-06, -0.413187981, 0.492408991, 0.766034663)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14.0961304, 30857.9062, -42.8878059, -1.54972076e-06, 0.422563195, -0.906333447, -1, -1.54972076e-06, 9.83476639e-07, -9.83476639e-07, 0.906333447, 0.422563195)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14.3601589, 8819.86621, -120.564476, 0.469896317, -0.671024799, -0.573518157, -0.819144368, -0.573587418, -3.7625432e-05, -0.328937531, 0.469811857, -0.819192886)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14.0961304, 11034.916, -42.8878059, -1.54972076e-06, 0.422563195, -0.906333447, -1, -1.54972076e-06, 9.83476639e-07, -9.83476639e-07, 0.906333447, 0.422563195)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(175.43782, 362.977905, -15.9754868, 6.37769699e-06, -0.173615277, 0.984813631, -1, -6.43730164e-06, 5.42402267e-06, 5.42402267e-06, -0.984813631, -0.173615336)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(144.436646, 615.638367, 90.4955902, 8.10623169e-06, 0.642762303, -0.766065598, -1, 8.10623169e-06, -3.78489494e-06, 3.78489494e-06, 0.766065598, 0.642762303)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-38.9288559, 917.738098, 82.4970779, -5.96046448e-07, 0.0871878564, -0.996191859, -1, -5.96046448e-07, 5.66244125e-07, -5.66244125e-07, 0.996191859, 0.0871878266)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(29.1502953, 8230.61719, 183.003876, -2.05039978e-05, -0.499938965, 0.866060615, -1, 2.05039978e-05, -1.18613243e-05, -1.18613243e-05, -0.866060615, -0.499938965)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(45.1864967, 3381.8689, -32.5351486, 4.76837158e-05, 0.996190667, -0.0872024298, -1, 4.76837158e-05, -2.08243728e-06, 2.08243728e-06, 0.0872024298, 0.996190608)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(95.291832, 29682.9473, 54.7701225, -0.492406368, 0.586809278, -0.642799258, -0.766036391, -0.642797232, 2.74181366e-06, -0.413187981, 0.492408991, 0.766034663)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14.3601589, 3912.42017, -120.564476, 0.469896317, -0.671024799, -0.573518157, -0.819144368, -0.573587418, -3.7625432e-05, -0.328937531, 0.469811857, -0.819192886)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91.6617279, 4538.1001, -29.621706, 0.163124382, 0.925427914, -0.34201467, -0.98481667, 0.173598707, 1.5899539e-05, 0.0593880564, 0.336819112, 0.939694643)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(42.6795883, 37612.7578, -63.5291214, -2.07424164e-05, 0.57355696, 0.819165647, -0.99999994, -2.07424164e-05, -1.07884407e-05, 1.07884407e-05, -0.819165647, 0.573557019)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(125.191315, 1021.06775, -78.7982101, -1.4424324e-05, -0.707153797, -0.70705986, -1, 1.4424324e-05, 5.9902668e-06, 5.9902668e-06, 0.70705986, -0.707153797)
+        wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14.3601589, 13214.7197, -120.564476, 0.469896317, -0.671024799, -0.573518157, -0.819144368, -0.573587418, -3.7625432e-05, -0.328937531, 0.469811857, -0.819192886)
+        wait(10)
+    end
+    
+
+
+
+
+end)
+
+local Tab = Window:NewTab("Islands")
+local Section = Tab:NewSection("Islands")
+
+Section:NewButton("Enchanted Island", "Click to teleport to the Enchanted Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(59.26231002807617, 765.9539794921875, -130.90914916992188)
+end)
+
+Section:NewButton("Astral Island", "Click to teleport to the Astral Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(234.61863708496094, 2013.80712890625, 265.3737487792969)
+end)
+
+Section:NewButton("Mystical Island", "Click to teleport to the Mystical Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165.11318969726562, 4047.154052734375, 65.47366333007812)
+end)
+
+Section:NewButton("Space Island", "Click to teleport to the Space Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(138.60935974121094, 5656.95849609375, 64.67082977294922)
+end)
+
+Section:NewButton("Tundra Island", "Click to teleport to the Tundra Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(138.1635284423828, 9284.95703125, 63.65798568725586)
+end)
+
+Section:NewButton("Eternal Island", "Click to teleport to the Eternal Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(141.1022186279297, 13679.810546875, 70.25861358642578)
+end)
+
+Section:NewButton("SandStorm Island", "Click to teleport to the SandStorm Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(142.39723205566406, 17686.1015625, 73.24273681640625)
+end)
+
+Section:NewButton("ThunderStorm Island", "Click to teleport to the ThunderStorm Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(134.50106811523438, 24069.794921875, 56.686241149902344)
+end)
+
+Section:NewButton("Ancient Inferno Island", "Click to teleport to the Ancient Inferno Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(140.3518524169922, 28256.068359375, 66.82593536376953)
+end)
+
+Section:NewButton("Midnight Shadow Island", "Click to teleport to the Midnight Shadow Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(131.8579864501953, 33206.75, 49.284542083740234)
+end)
+
+Section:NewButton("Mythical Souls Island", "Click to teleport to the Mythical Souls Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(133.0310516357422, 39317.33984375, 51.41726303100586)
+end)
+
+Section:NewButton("Winter Wonder Island", "Click to teleport to the Winter Wonder Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(129.98907470703125, 46010.32421875, 49.14723587036133)
+end)
+
+Section:NewButton("Golden Master Island", "Click to teleport to the Golden Master Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(129.39222717285156, 52607.53515625, 46.94802474975586)
+end)
+
+Section:NewButton("Dragon Legend Island", "Click to teleport to the Dragon Legend Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(131.19190979003906, 59594.44921875, 48.55290985107422)
+end)
+
+Section:NewButton("Cybernetic Legends Island", "Click to teleport to the Cybernetic Legends Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(132.23768615722656, 66668.9375, 48.511539459228516)
+end)
+
+Section:NewButton("Skystorm Ultraus Island", "Click to teleport to the Skystorm Ultraus Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(133.13055419921875, 70270.9296875, 50.22132873535156)
+end)
+
+Section:NewButton("Chaos Legends Island", "Click to teleport to the Chaos Legends Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(131.73880004882812, 74442.625, 48.63936996459961)
+end)
+
+Section:NewButton("Soul Fusion Island", "Click to teleport to the Soul Fusion Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(130.6772918701172, 79746.7578125, 49.367347717285156)
+end)
+
+Section:NewButton("Dark Elements Island", "Click to teleport to the", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(133.5198211669922, 83198.7578125, 49.070655822753906)
+end)
+
+Section:NewButton("Inner Peace Island", "Click to teleport to the Inner Peace Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(132.5119171142578, 87050.84375, 49.592445373535156)
+end)
+
+Section:NewButton("Blazing Vortex Island", "Click to teleport to the Blazing Vortex Island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(131.07273864746094, 91245.84375, 49.84449768066406)
+end)
+
+local Tab = Window:NewTab("Player")
+local Section = Tab:NewSection("Player")
+
+local plrs = {}
+for _, v in pairs(game.Players:GetPlayers()) do
+    table.insert(plrs, v.Name)
+end
+
+Section:NewDropdown("Chose A Player", "Chose A Player To Teleport That Player You Chose", plrs, function(currentOption)
+    local selectedPlayer = game.Players:FindFirstChild(currentOption)
+    if selectedPlayer then 
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = selectedPlayer.Character.HumanoidRootPart.CFrame
+    end
+end)
+
+Section:NewTextBox("WalkSpeed", "Change your WalkSpeed", function(Value)
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+end)
+
+Section:NewTextBox("JumpPower", "Change your JumpPower", function(Value)
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+end)
+
+local Tab = Window:NewTab("Others")
+local Section = Tab:NewSection("Credits and Others")
+
+Section:NewLabel("By Kaksakan")
+
+Section:NewButton("My Discord Server", "Click to copy my Discord Server link", function()
+    setclipboard("https://discord.gg/tNf6Fsvk")
+    print(Copied)
+end)
+
+Section:NewKeybind("On - Off Uİ", "KeybindInfo", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
+Section:NewButton("Mobile Keybord", "Use this if u are on MOBİLE", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+end)
+
+else
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+        Title = "Ninja Legends Script",
+        Text = "Please join the Ninja Legends"
+    })
+end
